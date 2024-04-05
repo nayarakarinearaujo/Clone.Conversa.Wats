@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp conversas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="whatsapp-container">
+        <aside class="sidebar">
+            <header>
+                <h1>WhatsApp</h1>
+            </header>
+            <div class="pesquisa">
+                <input type="text" id="pesquisaInput" placeholder="Pesquisar nome...">
+            </div>
+            <section class="chats" id="chatsList">
+                <!-- Aqui serão exibidos os chats -->
+                
+                <article class="chat" data-chat="carlos">
+                    <div class="chat-info">
+                        <h2>Carlos</h2>
+                    </div>
+                    <time class="data-e-hora" id="ultimaMensagemCarlos"></time>
+                </article>
+                <article class="chat" data-chat="maria">
+                    <div class="chat-info">
+                        <h2>Maria</h2>
+                    </div>
+                    <time class="data-e-hora" id="ultimaMensagemMaria"></time>
+                </article>
+                <article class="chat" data-chat="jose">
+                    <div class="chat-info">
+                        <h2>José</h2>
+                    </div>
+                    <time class="data-e-hora" id="ultimaMensagemJose"></time>
+                </article>
+                <article class="chat" data-chat="renato">
+                    <div class="chat-info">
+                        <h2>Renato</h2>
+                    </div>
+                    <time class="data-e-hora" id="ultimaMensagemRenato"></time>
+                </article>
+                <article class="chat" data-chat="joana">
+                    <div class="chat-info">
+                        <h2>Joana</h2>
+                    </div>
+                    <time class="data-e-hora" id="ultimaMensagemJoana"></time>
+                </article>
+            </section>
+        </aside>
+        <section class="chat-window">
+            <header>
+                <h2>Maria</h2>
+            </header>
+            <div class="chat-mensagens" id="chatMessages">
+                <!-- As mensagens serão adicionadas aqui via JavaScript -->
+            </div>
+            <div class="escrever">
+                <input type="text" id="mensagemInput" placeholder="Digite a mensagem..." data-chat="maria">
+
+                <button id="sendMessageButton">Enviar</button>
+                <div>
+                    <button id="emojiButton">🙂</button><!-- Botão para abrir o seletor de emojis -->
+                </div>
+            </div>
+            
+            <div id="emojiPicker" style="display: none;"> <!-- Seletor de emoticons -->
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

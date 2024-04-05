@@ -1,0 +1,159 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.whatsapp-container {
+    display: flex;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ededed;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.pesquisa input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.chats {
+    margin-top: 20px;
+}
+
+.chat {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.data-e-hora {
+    font-size: 12px;
+    color: #666;
+    text-align: right;
+    padding-left: 15px;
+    word-wrap: break-word;
+}
+
+.chat-window {
+    flex-grow: 1;
+    background-color: #fff;
+    border-left: 1px solid #ccc;
+    padding-left: 20px;
+    flex-shrink: 0;
+    max-width: 70%; /* Define um limite máximo de largura */
+}
+
+.chat-window .header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.chat-window .chat-mensagens {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.mensagem {
+    max-width: 70%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.recebida {
+    background-color: #edf1ea;
+    align-self: flex-start;
+}
+
+.enviada {
+    background-color: #d1cfcf;
+    align-self: flex-end;
+    text-align: right;
+    word-wrap: break-word;
+}
+
+.time {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #666;
+}
+
+.confirmacao-icon-enviada {
+    color: #000;
+}
+
+.confirmacao-icon-enviada.mensagem-lida {
+    color: #4caf50;
+}
+
+.escrever {
+    display: flex;
+    align-items: center;
+    padding: 20px; /* Ajustado para telas maiores */
+    border-top: 1px solid #ccc;
+    max-width: 100%; /* Define um limite máximo de largura */
+}
+
+.escrever input[type="text"] {
+    flex-grow: 1;
+    padding: 15px; /* Mantido para consistência */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+.escrever button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #FB6D48;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+#emojiButton:hover {
+    background-color: #fcb09d;
+}
+
+.escrever button:hover {
+    background-color: #fcb09d;
+}
+
+/* Media query para telas menores */
+@media screen and (max-width: 600px) {
+    .whatsapp-container {
+        flex-direction: column; /* Altera a direção para coluna */
+        max-width: 100%; /* Garante que ocupe a largura total da tela */
+    }
+
+    .sidebar {
+        width: 100%; /* Largura total da barra lateral */
+        margin-bottom: 20px; /* Adiciona um espaçamento inferior */
+    }
+
+    .chat-window {
+        border-left: none; /* Remove a borda esquerda */
+        max-width: 100%; /* Define a largura máxima para preencher a tela */
+    }
+}
