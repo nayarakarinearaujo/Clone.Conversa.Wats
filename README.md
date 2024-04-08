@@ -1,27 +1,20 @@
 # Clone layout das Conversas do Whatsapp
 
-Este projeto é um simulador básico de um aplicativo de mensagens semelhante ao WhatsApp. Ele consiste em uma página da web onde os usuários podem visualizar
-uma lista de contatos na barra lateral, selecionar um contato específico para iniciar uma conversa e enviar mensagens para esse contato. Também contém nesse projeto um seletor de emojis. 🙂
+Este projeto é uma simulação de um chat semelhante ao WhatsApp, desenvolvido em HTML, CSS e JavaScript. Aqui está uma explicação simplificada do que o projeto faz:
 
-A estrutura do projeto inclui:
+* Barra Lateral de Chats: Na barra lateral, são exibidos os contatos dos usuários. Cada contato é representado por um "chat" com seu nome.
 
-### HTML:
+* Janela de Chat: Ao clicar em um chat na barra lateral, uma janela de chat é aberta na área principal da tela. Nessa janela, você pode ver todas as mensagens trocadas com o contato selecionado.
 
-Define a estrutura da página, incluindo a barra lateral com a lista de contatos e a janela de chat para exibir as mensagens.
+* Envio de Mensagens: Você pode digitar uma mensagem na parte inferior da janela de chat e enviar clicando no botão "Enviar" ou pressionando Enter no teclado.
 
-### CSS:
+* Exibição de Mensagens: Todas as mensagens enviadas e recebidas são exibidas na área de mensagens da janela de chat, mostrando quem enviou, o horário da mensagem e se foi confirmada e/ou lida.
 
-Estiliza a aparência da página, fornecendo um layout visualmente atraente e responsivo.
+* Pesquisa de Chats: Existe um campo de pesquisa na barra lateral para filtrar os chats por nome. Ao digitar no campo de pesquisa, apenas os chats cujos nomes correspondem ao termo de pesquisa são exibidos.
 
-### JavaScript:
+* Seleção de Emojis: Você pode clicar no botão de emoji para abrir um seletor de emojis e escolher um emoji para adicionar à sua mensagem.
 
-Adiciona interatividade ao aplicativo, permitindo que os usuários enviem mensagens, emojis, visualizem mensagens recebidas e interajam com os contatos na barra lateral.
-
-### LocalStorage:
-
-Armazena as mensagens enviadas e recebidas localmente no navegador do usuário, permitindo que as conversas persistam entre as sessões.
-
-Em resumo, este projeto demonstra como criar um aplicativo de mensagens básico usando tecnologias da web como HTML, CSS e JavaScript. Ele oferece uma experiência simulada de troca de mensagens em tempo real entre diferentes usuários.
+No geral, o projeto simula uma interface de chat básica, permitindo que você troque mensagens com diferentes contatos e pesquise chats por nome.
 
 <div style="display: inline_block"><br/>
 <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
