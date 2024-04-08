@@ -1,7 +1,7 @@
 # Clone layout das Conversas do Whatsapp
 
 Este projeto é um simulador básico de um aplicativo de mensagens semelhante ao WhatsApp. Ele consiste em uma página da web onde os usuários podem visualizar
-uma lista de contatos na barra lateral, selecionar um contato específico para iniciar uma conversa e enviar mensagens para esse contato.
+uma lista de contatos na barra lateral, selecionar um contato específico para iniciar uma conversa e enviar mensagens para esse contato. Também contém nesse projeto um seletor de emojis. 🙂
 
 A estrutura do projeto inclui:
 
@@ -15,7 +15,7 @@ Estiliza a aparência da página, fornecendo um layout visualmente atraente e re
 
 ### JavaScript:
 
-Adiciona interatividade ao aplicativo, permitindo que os usuários enviem mensagens, visualizem mensagens recebidas e interajam com os contatos na barra lateral.
+Adiciona interatividade ao aplicativo, permitindo que os usuários enviem mensagens, emojis, visualizem mensagens recebidas e interajam com os contatos na barra lateral.
 
 ### LocalStorage:
 
@@ -28,3 +28,6 @@ Em resumo, este projeto demonstra como criar um aplicativo de mensagens básico 
 <img alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 </div><br/>
+
+![Watschat](https://github.com/nayarakarinearaujo/Clone.Conversa.Wats/assets/149000384/efce84eb-6bcb-4c42-88cd-114e6bb064d0)
+
