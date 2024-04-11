@@ -1,6 +1,10 @@
-# Clone layout das Conversas do Whatsapp
+![image](https://github.com/nayarakarinearaujo/Clone.Conversa.Wats/assets/149000384/921563da-454a-4269-bb90-0b71e0bbcbe7)
+# Clone layout das Conversas do Whatsapp 
 
-Este projeto é uma simulação de um chat semelhante ao WhatsApp, desenvolvido em HTML, CSS e JavaScript. Aqui está uma explicação simplificada do que o projeto faz:
+
+
+
+Este projeto é uma simulação de um chat semelhante ao WhatsApp, desenvolvido em HTML, CSS e JavaScript. Aqui está uma explicação do que o projeto faz:
 
 * Barra Lateral de Chats: Na barra lateral, são exibidos os contatos dos usuários. Cada contato é representado por um "chat" com seu nome.
 
